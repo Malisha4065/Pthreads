@@ -10,6 +10,9 @@ This repository contains various examples demonstrating the use of POSIX threads
 - `hello_arg3.c` - Demonstrates incorrect argument passing (race condition example).
 - `join.c` - Using `pthread_join` to wait for threads to complete.
 - `stack.c` - Managing thread stack size with `pthread_attr_setstacksize`.
+- `dotprod_serial.c` - Serial implementation of dot product calculation.
+- `dotprod_mutex.c` - Parallel dot product calculation using mutex for synchronization.
+- `condvar.c` - Demonstrates condition variables for thread synchronization.
 
 ## How to Compile and Run
 
